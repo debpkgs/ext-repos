@@ -1,0 +1,29 @@
+--- [SYSTEM] PACK: 'ext-repos' (*.orig.tar.xz)
+File '*.orig.tar.*' not found! Creating...
+File 'ext-repos_1.0.9.orig.tar.xz' created!
+--- [SYSTEM] BUILD: 'github.com/pkgstore/linux-deb-ext-repos.git'
+dpkg-source: info: using source format '3.0 (quilt)'
+dpkg-source: info: building ext-repos using existing ./ext-repos_1.0.9.orig.tar.xz
+dpkg-source: warning: ignoring deletion of directory preferences.d
+dpkg-source: warning: ignoring deletion of file preferences.d/percona.pref, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file preferences.d/debian.haproxy.pref, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file preferences.d/syncthing.pref, use --include-removal to override
+dpkg-source: warning: ignoring deletion of directory trusted.gpg.d
+dpkg-source: warning: ignoring deletion of file trusted.gpg.d/.dummy, use --include-removal to override
+dpkg-source: warning: ignoring deletion of directory sources.list.d
+dpkg-source: warning: ignoring deletion of file sources.list.d/.dummy, use --include-removal to override
+dpkg-source: info: building ext-repos in ext-repos_1.0.9-1.debian.tar.xz
+dpkg-source: info: building ext-repos in ext-repos_1.0.9-1.dsc
+File 'ext-repos_1.0.9-1.dsc' found!
+Build completed!
+--- [SYSTEM] MOVE: '/root/git/repo_src' -> '/root/git/repo_dst'
+Removing old files from repository...
+Moving new files to repository...
+renamed '/root/git/repo_src/_service' -> '/root/git/repo_dst/_service'
+renamed '/root/git/repo_src/_meta' -> '/root/git/repo_dst/_meta'
+renamed '/root/git/repo_src/README.md' -> '/root/git/repo_dst/README.md'
+renamed '/root/git/repo_src/LICENSE' -> '/root/git/repo_dst/LICENSE'
+renamed '/root/git/repo_src/ext-repos_1.0.9-1.debian.tar.xz' -> '/root/git/repo_dst/ext-repos_1.0.9-1.debian.tar.xz'
+renamed '/root/git/repo_src/ext-repos_1.0.9.orig.tar.xz' -> '/root/git/repo_dst/ext-repos_1.0.9.orig.tar.xz'
+renamed '/root/git/repo_src/ext-repos_1.0.9-1.dsc' -> '/root/git/repo_dst/ext-repos_1.0.9-1.dsc'
+renamed '/root/git/repo_src/build.log' -> '/root/git/repo_dst/build.log'
